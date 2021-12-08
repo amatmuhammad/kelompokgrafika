@@ -43,3 +43,12 @@ else:
         titik_A.append(x)
         titik_B.append(ya)
         x+=1
+
+        
+grafik.title('Diagram Kartesius'"\n"'Algoritma Brute Force')
+grafik.xlabel(titik_A)
+grafik.ylabel(titik_B)
+grafik.plot(titik_A,titik_B)
+grafik.scatter(titik_A,titik_B)
+grafik.grid()
+grafik.show()
