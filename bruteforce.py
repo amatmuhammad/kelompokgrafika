@@ -19,3 +19,12 @@ if x1 == x2:
         titik_A.append(x)
         titik_B.append(y)
         y=y+1
+
+elif y1 == y2:
+    titik_A = []
+    titik_B = []
+    for i in range(0, x2, 1):
+        print('Garis yang di lewati oleh titik A dan B yaitu : ', x, ',', y)
+        titik_A.append(x)
+        titik_B.append(y)
+        x=x+1
