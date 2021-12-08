@@ -28,3 +28,10 @@ elif y1 == y2:
         titik_A.append(x)
         titik_B.append(y)
         x=x+1
+else:
+    titik_A = []
+    titik_B = []
+    m_gradiengaris = (y2 - y1) / (x2 - x1)
+    print('Nilai Gradien Garis = ',m_gradiengaris)
+    N = x2 - x1 + 1
+    print('Nilai N = ',N)
